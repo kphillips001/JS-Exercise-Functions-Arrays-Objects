@@ -41,7 +41,13 @@ function addNumbers(num1, num2) {
 */
 function makePersonObject(/* code here */) {
   /* code here */
-}
+  const person = {
+    id: id,
+    name: name,
+    email: email
+  }
+  return person; 
+};
 
 /**
  * ### Challenge `getName`
